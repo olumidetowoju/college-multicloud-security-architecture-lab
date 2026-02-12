@@ -65,12 +65,13 @@ Think of the college like a **city**:
 
 ```mermaid
 flowchart LR
-  Users[Students / Faculty / Staff / Vendors] --> IdP[Central Identity (SSO/MFA)]
-  IdP --> ZTNA[Zero Trust Access Layer]
-  ZTNA --> Clouds[AWS / Azure / GCP Workloads]
-  Vault[HashiCorp Vault] --> Clouds
-  Clouds --> Logs[Central Logging + SIEM]
-  Logs --> IR[Incident Response Runbooks]
+    Users[Students / Faculty / Staff / Vendors] --> IdP[Central Identity SSO/MFA]
+    IdP --> ZTNA[Zero Trust Access Layer]
+    ZTNA --> Clouds[AWS / Azure / GCP Workloads]
+    Vault[HashiCorp Vault] --> Clouds
+    Clouds --> Logs[Central Logging + SIEM]
+    Logs --> IR[Incident Response Runbooks]
+```
 
 ---
 
