@@ -24,6 +24,7 @@ By the end of Module 00, you will have:
 3) ✅ [Governance Guardrails](./governance-guardrails.md)
 
 ## High-level flow (how labs should run)
+
 ```mermaid
 flowchart LR
   Plan[Plan + Guardrails] --> Build[Build Resources]
@@ -31,5 +32,7 @@ flowchart LR
   Verify --> Document[Document Decisions + Evidence]
   Document --> Destroy[Destroy Resources]
   Destroy --> Confirm[Confirm Zero Drift]
+```
+
 Next module
 👉 01 — Requirements & Threat Model
